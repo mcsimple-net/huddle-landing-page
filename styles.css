@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Violet);
+    font-family: 'Open Sans', sans-serif;
+}
+h1, button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+button{
+    font-weight: 400;
+}
+button:hover{
+    background-color: var(--Soft-Magenta);
+}
+.logo{
+    width: 180px;
+}
+
+@media (min-width: 1024px){
+    body{
+        overflow: hidden;
+    }
+}
